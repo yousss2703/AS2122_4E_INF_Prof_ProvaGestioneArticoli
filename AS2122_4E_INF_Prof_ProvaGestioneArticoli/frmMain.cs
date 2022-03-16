@@ -26,7 +26,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
 
         private void btnAggiungiArticolo_Click(object sender, EventArgs e)
         {
-            frmArticolo f = new frmArticolo();
+            frmArticolo f = new frmArticolo(); 
 
             f.ShowDialog();
 
