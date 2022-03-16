@@ -64,6 +64,11 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
 
             // TODO: (3) aggiungere visualizzazione dettaglio articolo nelle label
             // ... lblDescrizione.Text = articoli[index].Descrizione;
+
+            lblDescrizione.Text = articoli[index].Descrizione;
+            lblArticoliInseriti.Text = articoli[index].ArticoliInseriti;
+            lblPrezzo.Text = articoli[index].Prezzo;
+            lblUnitaMisura.Text = articoli[index].UnitaMisura;
         }
     }
 }
